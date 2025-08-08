@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  7 AUG 2025 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  7 AUG 2025 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,6 +24,176 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count189
+\l__color_backend_stack_int=\count190
+\g__color_backend_stack_int=\count191
+\g__graphics_track_int=\count192
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count193
+\g__pdf_backend_annotation_int=\count194
+\g__pdf_backend_link_int=\count195
+))
+Package: xeCJK 2021/12/12 v3.8.8 Typesetting CJK scripts with XeLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2021/12/12 v2.5.8 Document and package hooks (CTEX)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2022-01-12 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen139
+\l__xtemplate_tmp_int=\count196
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+\l__xeCJK_tmp_int=\count197
+\l__xeCJK_tmp_box=\box51
+\l__xeCJK_tmp_dim=\dimen140
+\l__xeCJK_tmp_skip=\skip50
+\g__xeCJK_space_factor_int=\count198
+\l__xeCJK_begin_int=\count199
+\l__xeCJK_end_int=\count266
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip51
+\g__xeCJK_node_int=\count267
+\c__xeCJK_CJK_node_dim=\dimen141
+\c__xeCJK_CJK-space_node_dim=\dimen142
+\c__xeCJK_default_node_dim=\dimen143
+\c__xeCJK_default-space_node_dim=\dimen144
+\c__xeCJK_CJK-widow_node_dim=\dimen145
+\c__xeCJK_normalspace_node_dim=\dimen146
+\l__xeCJK_ccglue_skip=\skip52
+\l__xeCJK_ecglue_skip=\skip53
+\l__xeCJK_punct_kern_skip=\skip54
+\l__xeCJK_last_penalty_int=\count268
+\l__xeCJK_last_bound_dim=\dimen147
+\l__xeCJK_last_kern_dim=\dimen148
+\l__xeCJK_widow_penalty_int=\count269
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2337.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen149
+\l__xeCJK_mixed_punct_width_dim=\dimen150
+\l__xeCJK_middle_punct_width_dim=\dimen151
+\l__xeCJK_fixed_margin_width_dim=\dimen152
+\l__xeCJK_mixed_margin_width_dim=\dimen153
+\l__xeCJK_middle_margin_width_dim=\dimen154
+\l__xeCJK_bound_punct_width_dim=\dimen155
+\l__xeCJK_bound_margin_width_dim=\dimen156
+\l__xeCJK_margin_minimum_dim=\dimen157
+\l__xeCJK_kerning_total_width_dim=\dimen158
+\l__xeCJK_same_align_margin_dim=\dimen159
+\l__xeCJK_different_align_margin_dim=\dimen160
+\l__xeCJK_kerning_margin_width_dim=\dimen161
+\l__xeCJK_kerning_margin_minimum_dim=\dimen162
+\l__xeCJK_bound_dim=\dimen163
+\l__xeCJK_reverse_bound_dim=\dimen164
+\l__xeCJK_margin_dim=\dimen165
+\l__xeCJK_minimum_bound_dim=\dimen166
+\l__xeCJK_kerning_margin_dim=\dimen167
+\g__xeCJK_family_int=\count270
+\l__xeCJK_fam_int=\count271
+\g__xeCJK_fam_allocation_int=\count272
+\l__xeCJK_verb_case_int=\count273
+\l__xeCJK_verb_exspace_skip=\skip55
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count274
+\l__fontspec_language_int=\count275
+\l__fontspec_strnum_int=\count276
+\l__fontspec_tmp_int=\count277
+\l__fontspec_tmpa_int=\count278
+\l__fontspec_tmpb_int=\count279
+\l__fontspec_tmpc_int=\count280
+\l__fontspec_em_int=\count281
+\l__fontspec_emdef_int=\count282
+\l__fontspec_strong_int=\count283
+\l__fontspec_strongdef_int=\count284
+\l__fontspec_tmpa_dim=\dimen168
+\l__fontspec_tmpb_dim=\dimen169
+\l__fontspec_tmpc_dim=\dimen170
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2021/12/12 v3.8.8 Configuration file for xeCJK package
+))
+
+Package fontspec Info: Font family 'NotoSerif(0)' created for font 'NotoSerif'
+(fontspec)             with options [Ligatures=TeX,UprightFont =
+(fontspec)             NotoSerif-Regular.ttf,BoldFont =
+(fontspec)             NotoSerif-ExtraBold.ttf,ItalicFont =
+(fontspec)             NotoSerif-Italic.ttf,Path = fonts/static/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerif-Regular.ttf]/OT:script=latn;
+language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerif-Regular.ttf]/OT:script=latn;
+language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerif-ExtraBold.ttf]/OT:script=lat
+n;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerif-ExtraBold.ttf]/OT:script=lat
+n;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerif-Italic.ttf]/OT:script=latn;l
+anguage=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerif-Italic.ttf]/OT:script=latn;l
+anguage=dflt;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'NotoSerifTC(0)' created for font
+(fontspec)             'NotoSerifTC' with options
+(fontspec)             [Script={CJK},UprightFont={NotoSerifTC-Regular.ttf},Path
+={fonts/static/},BoldFont={NotoSerifTC-ExtraBold.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerifTC-Regular.ttf]/OT:script=han
+i;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/static/NotoSerifTC-ExtraBold.ttf]/OT:script=h
+ani;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -37,300 +207,19 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count189
-\Gm@cntv=\count190
-\c@Gm@tempcnt=\count191
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen171
+\Gm@wd@mp=\dimen172
+\Gm@odd@mp=\dimen173
+\Gm@even@mp=\dimen174
+\Gm@layoutwidth=\dimen175
+\Gm@layoutheight=\dimen176
+\Gm@layouthoffset=\dimen177
+\Gm@layoutvoffset=\dimen178
 \Gm@dimlist=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-01-21 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
-
-(|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count192
-\l__color_backend_stack_int=\count193
-\g__color_backend_stack_int=\count194
-\g__graphics_track_int=\count195
-\l__pdf_internal_box=\box50
-\g__pdf_backend_object_int=\count196
-\g__pdf_backend_annotation_int=\count197
-\g__pdf_backend_link_int=\count198
-))
-Package: xeCJK 2021/12/12 v3.8.8 Typesetting CJK scripts with XeLaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexhook.sty
-Package: ctexhook 2021/12/12 v2.5.8 Document and package hooks (CTEX)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2022-01-12 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen147
-\l__xtemplate_tmp_int=\count199
-\l__xtemplate_tmp_muskip=\muskip16
-\l__xtemplate_tmp_skip=\skip49
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2022-01-12 L3 Experimental document command parser
-)
-\l__xeCJK_tmp_int=\count266
-\l__xeCJK_tmp_box=\box51
-\l__xeCJK_tmp_dim=\dimen148
-\l__xeCJK_tmp_skip=\skip50
-\g__xeCJK_space_factor_int=\count267
-\l__xeCJK_begin_int=\count268
-\l__xeCJK_end_int=\count269
-\c__xeCJK_CJK_class_int=\XeTeXcharclass1
-\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
-\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
-\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
-\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
-\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
-\c__xeCJK_CM_class_int=\XeTeXcharclass7
-\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
-\l__xeCJK_last_skip=\skip51
-\g__xeCJK_node_int=\count270
-\c__xeCJK_CJK_node_dim=\dimen149
-\c__xeCJK_CJK-space_node_dim=\dimen150
-\c__xeCJK_default_node_dim=\dimen151
-\c__xeCJK_default-space_node_dim=\dimen152
-\c__xeCJK_CJK-widow_node_dim=\dimen153
-\c__xeCJK_normalspace_node_dim=\dimen154
-\l__xeCJK_ccglue_skip=\skip52
-\l__xeCJK_ecglue_skip=\skip53
-\l__xeCJK_punct_kern_skip=\skip54
-\l__xeCJK_last_penalty_int=\count271
-\l__xeCJK_last_bound_dim=\dimen155
-\l__xeCJK_last_kern_dim=\dimen156
-\l__xeCJK_widow_penalty_int=\count272
-
-Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2337.
-
-\l__xeCJK_fixed_punct_width_dim=\dimen157
-\l__xeCJK_mixed_punct_width_dim=\dimen158
-\l__xeCJK_middle_punct_width_dim=\dimen159
-\l__xeCJK_fixed_margin_width_dim=\dimen160
-\l__xeCJK_mixed_margin_width_dim=\dimen161
-\l__xeCJK_middle_margin_width_dim=\dimen162
-\l__xeCJK_bound_punct_width_dim=\dimen163
-\l__xeCJK_bound_margin_width_dim=\dimen164
-\l__xeCJK_margin_minimum_dim=\dimen165
-\l__xeCJK_kerning_total_width_dim=\dimen166
-\l__xeCJK_same_align_margin_dim=\dimen167
-\l__xeCJK_different_align_margin_dim=\dimen168
-\l__xeCJK_kerning_margin_width_dim=\dimen169
-\l__xeCJK_kerning_margin_minimum_dim=\dimen170
-\l__xeCJK_bound_dim=\dimen171
-\l__xeCJK_reverse_bound_dim=\dimen172
-\l__xeCJK_margin_dim=\dimen173
-\l__xeCJK_minimum_bound_dim=\dimen174
-\l__xeCJK_kerning_margin_dim=\dimen175
-\g__xeCJK_family_int=\count273
-\l__xeCJK_fam_int=\count274
-\g__xeCJK_fam_allocation_int=\count275
-\l__xeCJK_verb_case_int=\count276
-\l__xeCJK_verb_exspace_skip=\skip55
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count277
-\l__fontspec_language_int=\count278
-\l__fontspec_strnum_int=\count279
-\l__fontspec_tmp_int=\count280
-\l__fontspec_tmpa_int=\count281
-\l__fontspec_tmpb_int=\count282
-\l__fontspec_tmpc_int=\count283
-\l__fontspec_em_int=\count284
-\l__fontspec_emdef_int=\count285
-\l__fontspec_strong_int=\count286
-\l__fontspec_strongdef_int=\count287
-\l__fontspec_tmpa_dim=\dimen176
-\l__fontspec_tmpb_dim=\dimen177
-\l__fontspec_tmpc_dim=\dimen178
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2021/12/12 v3.8.8 Configuration file for xeCJK package
-))
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Regular" cannot be fo
-und.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Regular" cannot be fo
-und.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Regular" cannot be fo
-und.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Bold" cannot be found
-.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Bold" cannot be found
-.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Italic" cannot be fou
-nd.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-./cv.tex:24: Package fontspec Error: The font "Newsreader Italic" cannot be fou
-nd.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.24   ]
-        
-
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
-
- When in doubt, ask someone for help!
-
-
-
-Package fontspec Info: Font family 'Newsreader.ttf(0)' created for font
-(fontspec)             'Newsreader.ttf' with options
-(fontspec)             [Ligatures=TeX,UprightFont = {* Regular},BoldFont = {*
-(fontspec)             Bold},ItalicFont = {* Italic}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[Newsreader
-(fontspec)             Regular.ttf]/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"[Newsreader
-(fontspec)             Regular.ttf]/OT"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[Newsreader
-(fontspec)             Bold.ttf]/OT"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[Newsreader Bold.ttf]/OT"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[Newsreader
-(fontspec)             Italic.ttf]/OT"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[Newsreader Italic.ttf]/OT"
-
-./cv.tex:24: Font TU/Newsreader.ttf(0)/m/n/10="[Newsreader Regular.ttf]/OT" at 
-10.0pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.24   ]
-        
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-
-Package fontspec Info: Font family 'NotoSerifTC-Medium.ttf(0)' created for
-(fontspec)             font 'NotoSerifTC-Medium.ttf' with options
-(fontspec)             [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[NotoSerifTC-Medium.ttf]/OT:script=hani;language=dfl
-t;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box52
@@ -673,42 +562,99 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
 Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
 )
-LaTeX Font Info:    Trying to load font information for TU+bch on input line 16
-9.
-LaTeX Font Info:    No file TUbch.fd. on input line 169.
+LaTeX Font Info:    Trying to load font information for TU+bch on input line 17
+4.
+LaTeX Font Info:    No file TUbch.fd. on input line 174.
 
 
 LaTeX Font Warning: Font shape `TU/bch/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 169.
+(Font)              using `TU/lmr/m/n' instead on input line 174.
 
 (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 174.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-69.
+74.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 174.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 174.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 174.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 174.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 174.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 174.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 174.
+LaTeX Font Info:    Redeclaring math accent \check on input line 174.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 174.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 174.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 174.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 174.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 174.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/bch/m/n on input line 174.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 174.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/bch/m/n on input line 174.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/bch/m/n --> TU/bch/m/n on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/bch/m/it on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/bch/b/n on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 174.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/bch/m/n --> TU/bch/b/n on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/bch/b/it on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 174.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 174.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -718,19 +664,19 @@ LaTeX Font Info:    ... okay on input line 169.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=540.60239pt
+* \textheight=788.14136pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=0.0pt
-* \footskip=28.45274pt
+* \footskip=0.0pt
 * \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=4.26773pt
@@ -744,64 +690,7 @@ LaTeX Font Info:    ... okay on input line 169.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 169.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 169.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 169.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 169.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 169.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 169.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 169.
-LaTeX Font Info:    Redeclaring math accent \check on input line 169.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 169.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 169.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 169.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 169.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 169.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/bch/m/n on input line 169.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 169.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/bch/m/n on input line 169.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/bch/m/n --> TU/bch/m/n on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/bch/m/it on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/bch/b/n on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 169.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/bch/m/n --> TU/bch/b/n on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/bch/b/it on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 169.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 169.
-Package hyperref Info: Link coloring ON on input line 169.
+Package hyperref Info: Link coloring ON on input line 174.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -813,30 +702,25 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 169.
-LaTeX Info: Redefining \pageref on input line 169.
-LaTeX Info: Redefining \nameref on input line 169.
+LaTeX Info: Redefining \ref on input line 174.
+LaTeX Info: Redefining \pageref on input line 174.
+LaTeX Info: Redefining \nameref on input line 174.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 169.
+(lastpage)             ! on input line 174.
 \ANDbox=\box65
 
 
 LaTeX Font Warning: Font shape `TU/bch/b/n' undefined
-(Font)              using `TU/bch/m/n' instead on input line 176.
-
-
-LaTeX Font Warning: Font shape `TU/NotoSerifTC-Medium.ttf(0)/b/n' undefined
-(Font)              using `TU/NotoSerifTC-Medium.ttf(0)/m/n' instead on input l
-ine 176.
+(Font)              using `TU/bch/m/n' instead on input line 181.
 
 
 LaTeX Font Warning: Font shape `TU/bch/m/it' undefined
-(Font)              using `TU/bch/m/n' instead on input line 236.
+(Font)              using `TU/bch/m/n' instead on input line 187.
 
 
 LaTeX Font Warning: Font shape `TU/bch/b/it' undefined
-(Font)              using `TU/bch/b/n' instead on input line 323.
+(Font)              using `TU/bch/b/n' instead on input line 333.
 
 [1
 
@@ -848,12 +732,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17102 strings out of 476191
- 335640 string characters out of 5812072
- 739056 words of memory out of 5000000
- 37627 multiletter control sequences out of 15000+600000
- 473018 words of font info for 55 fonts, out of 8000000 for 9000
+ 17124 strings out of 476191
+ 336898 string characters out of 5812072
+ 744302 words of memory out of 5000000
+ 37637 multiletter control sequences out of 15000+600000
+ 473090 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,7n,81p,330b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,7n,85p,330b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (2 pages).

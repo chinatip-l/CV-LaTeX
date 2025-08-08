@@ -2,27 +2,31 @@
 
 % Packages:
 
+\usepackage{xeCJK}
 
+\setmainfont{NotoSerif}[
+    UprightFont    = NotoSerif-Regular.ttf,
+    BoldFont       = NotoSerif-ExtraBold.ttf,
+    ItalicFont     = NotoSerif-Italic.ttf,
+    Path           = fonts/static/
+]
+\setCJKmainfont{NotoSerifTC}[
+    UprightFont    = NotoSerifTC-Regular.ttf,
+    BoldFont       = NotoSerifTC-ExtraBold.ttf,
+    Path           = fonts/static/
+]
 
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
-    left=2 cm, % seperation between body and page edge from the left
-    right=2 cm, % seperation between body and page edge from the right
-    footskip=1.0 cm, % seperation between body and footer
+    top=1 cm, % seperation between body and page edge from the top
+    bottom=1 cm, % seperation between body and page edge from the bottom
+    left=1 cm, % seperation between body and page edge from the left
+    right=1 cm, % seperation between body and page edge from the right
+    footskip=0 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 
-\usepackage{xeCJK}
-\usepackage{fontspec}
 
-\setmainfont{Newsreader.ttf}[
-    UprightFont = {* Regular},  % Use the internal name for the regular style
-    BoldFont    = {* Bold},     % Use the internal name for the bold style
-    ItalicFont  = {* Italic}
-  ]
-\setCJKmainfont{NotoSerifTC-Medium.ttf}
 
 \usepackage{titlesec} % for customizing section titles
 \usepackage{tabularx} % for making tables with fixed width columns
@@ -54,6 +58,8 @@
 \ifPDFTeX
     \input{glyphtounicode}
     \pdfgentounicode=1
+
+    
     \usepackage[T1]{fontenc}
     \usepackage[utf8]{inputenc}
     \usepackage{lmodern}
@@ -71,6 +77,7 @@
 \setlength{\columnsep}{0.15cm} % set column seperation
 \pagenumbering{gobble} % no page numbering
 
+% \titleformat{\section}{\needspace{2\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 \titleformat{\section}{\needspace{2\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
@@ -175,9 +182,14 @@
 \sbox\ANDbox{$|$}
 \section{Multilingual Test (多語言測試)}
 Multilingual Test (多語言測試)
+\textbf{hello}
+
+\textbf{語言測}
+
+\textit{hello}
 
 \begin{header}
-    \fontsize{25 pt}{25 pt}\selectfont John Doe
+    \fontsize{25 pt}{25 pt}\selectfont Chinatip Lawansuk (廖有福)
 
     \vspace{5 pt}
 
