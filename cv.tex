@@ -1,13 +1,27 @@
 \documentclass[10pt, a4paper]{article}
 
-% Packages:
 
+\newcommand{\enname}{Chinatip Lawansuk}
+\newcommand{\zhname}{廖有福}
+\newcommand{\telnum}{+886987422475}
+\newcommand{\email}{l.chinatip@gmail.com}
+\newcommand{\linkedin}{https://www.linkedin.com/in/chinatip-lawansuk-2b6718199/}
+\newcommand{\git}{https://github.com/chinatip-l}
+\newcommand{\gitname}{chinatip-l}
+\newcommand{\doi}{10.1109/ICCE59016.2024.10444315}
+\newcommand{\doilink}{https://doi.org/\doi}
+
+
+% Packages:
 \usepackage{xeCJK}
 
+
+% \setmainfont{fonts/static/NotoSerif-Regular.ttf}
 \setmainfont{NotoSerif}[
     UprightFont    = NotoSerif-Regular.ttf,
-    BoldFont       = NotoSerif-ExtraBold.ttf,
+    BoldFont       = NotoSerif-Bold.ttf,
     ItalicFont     = NotoSerif-Italic.ttf,
+    BoldItalicFont = NotoSerif-BoldItalic.ttf,
     Path           = fonts/static/
 ]
 \setCJKmainfont{NotoSerifTC}[
@@ -18,10 +32,10 @@
 
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=1 cm, % seperation between body and page edge from the top
-    bottom=1 cm, % seperation between body and page edge from the bottom
-    left=1 cm, % seperation between body and page edge from the left
-    right=1 cm, % seperation between body and page edge from the right
+    top=0.75 cm, % seperation between body and page edge from the top
+    bottom=0.75 cm, % seperation between body and page edge from the bottom
+    left=0.75 cm, % seperation between body and page edge from the left
+    right=0.75 cm, % seperation between body and page edge from the right
     footskip=0 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
@@ -37,9 +51,9 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={John Doe's CV},
-    pdfauthor={John Doe},
-    pdfcreator={LaTeX with RenderCV},
+    pdftitle={\enname (\zhname)'s CV},
+    pdfauthor={\enname (\zhname)},
+    pdfcreator={LaTeX},
     colorlinks=true,
     urlcolor=primaryColor
 ]{hyperref} % for links, metadata and bookmarks
@@ -65,7 +79,7 @@
     \usepackage{lmodern}
 \fi
 
-\usepackage{charter}
+% \usepackage{charter}
 
 % Some settings:
 \raggedright
@@ -74,21 +88,21 @@
 \setcounter{secnumdepth}{0} % no section numbering
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
-\setlength{\columnsep}{0.15cm} % set column seperation
+\setlength{\columnsep}{1pt} % set column seperation
 \pagenumbering{gobble} % no page numbering
 
 % \titleformat{\section}{\needspace{2\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
-\titleformat{\section}{\needspace{2\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titleformat{\section}{\needspace{1\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
     % left space:
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.2 cm
 }{
     % bottom space:
-    0.2 cm
+    0.15 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
@@ -180,235 +194,158 @@
 }
 \newsavebox\ANDbox
 \sbox\ANDbox{$|$}
-\section{Multilingual Test (多語言測試)}
-Multilingual Test (多語言測試)
-\textbf{hello}
-
-\textbf{語言測}
-
-\textit{hello}
-
+%%%%%%%%%% HEAD SECTION
 \begin{header}
-    \fontsize{25 pt}{25 pt}\selectfont Chinatip Lawansuk (廖有福)
+    \fontsize{22 pt}{0 pt}\selectfont{\enname （\zhname）}
 
     \vspace{5 pt}
 
     \normalsize
-    \mbox{Your Location}%
+    \mbox{Taipei, Taiwan}%
     \kern 5.0 pt%
     \AND%
     \kern 5.0 pt%
-    \mbox{\hrefWithoutArrow{mailto:youremail@yourdomain.com}{youremail@yourdomain.com}}%
+    \mbox{Email: \hrefWithoutArrow{mailto:\email}{\email}}%
     \kern 5.0 pt%
     \AND%
     \kern 5.0 pt%
-    \mbox{\hrefWithoutArrow{tel:+90-541-999-99-99}{0541 999 99 99}}%
+    \mbox{Mobile: \hrefWithoutArrow{tel:\telnum}{\telnum}}%
     \kern 5.0 pt%
     \AND%
     \kern 5.0 pt%
-    \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{yourwebsite.com}}%
+    \mbox{Linkedin: \hrefWithoutArrow{\linkedin}{\enname}}%
     \kern 5.0 pt%
     \AND%
     \kern 5.0 pt%
-    \mbox{\hrefWithoutArrow{https://linkedin.com/in/yourusername}{linkedin.com/in/yourusername}}%
-    \kern 5.0 pt%
-    \AND%
-    \kern 5.0 pt%
-    \mbox{\hrefWithoutArrow{https://github.com/yourusername}{github.com/yourusername}}%
+    \mbox{Github: \hrefWithoutArrow{\git}{github.com/\gitname}}%
 \end{header}
 
-\vspace{5 pt - 0.3 cm}
-
-
-\section{Welcome to RenderCV!}
+% \vspace{5 pt - 0.3 cm}
 
 
 
-
+\section{}
 \begin{onecolentry}
-    \href{https://rendercv.com}{RenderCV} is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{Markdown syntax support} and \textbf{complete control over the LaTeX code}.
+    Text for self introduction
 \end{onecolentry}
 
-\vspace{0.2 cm}
-
+%%%%%%%% EXPERTISES SECTION
+\section{Expertises}
 \begin{onecolentry}
-    The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
+    \textbf{Programming:} Verilog, SystemVerilog, C, C++, Python, Assembly, Shell Script, TCL, Tensorflow
+    \par
+    \textbf{IC Design Software:} Synopsys VCS, Synopsys Design Compiler (Design Vision), Synopsys TetraMAX, Cadence NC-Verilog, Cadence Innovus, Siemens Calibre
+    \par
+    \textbf{Skills:} Cell-Based Digital IC Design Flow, Image Processing, Computer Architecture, Operating System, Embedded System Design, Firmware, RTOS, Circuit Design
+    \par
+    \textbf{Coursework:} Computer-Aided VLSI System Design, Mixed-Signal IC Design, Computer Vision, Computer Architecture, Computer Organisation, Operating System
 \end{onecolentry}
 
-
-
-\section{Quick Guide}
+%%%%%%%% THESIS/RESEARCH SECTION
+\section{Research and Publication}
 
 \begin{onecolentry}
-    \begin{highlightsforbulletentries}
-
-
-        \item Each section title is arbitrary and each section contains a list of entries.
-
-        \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
-
-        \item Select a section title, pick an entry type, and start writing your section!
-
-        \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
-
-
-    \end{highlightsforbulletentries}
-\end{onecolentry}
-
-\section{Education}
-
-
-
-
-\begin{twocolentry}{
-        Sept 2000 – May 2005
-    }
-    \textbf{University of Pennsylvania}, BS in Computer Science\end{twocolentry}
-
-\vspace{0.10 cm}
-\begin{onecolentry}
+    \textbf{CORDIC hardware Improvement using Content Addressable Memory Cache (Thesis)}
     \begin{highlights}
-        \item GPA: 3.9/4.0 (\href{https://example.com}{a link to somewhere})
-        \item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+        \item Investigated and designed an algorithm to cache partially calculated data and reuse it in the CORDIC architecture for sine and cosine calculation.
+        \item Designed and implemented the processing core to suit the caching algorithm
+        \item Designed and implemented a custom TCAM to use with the proposed cache unit and a complete cache subsystem from scratch, including multiple cache blocks, a PLRUm replacement policy, and a controller
+        \item Designed and implemented a pipeline and synchronisation mechanism using a handshaking protocol
+        \item Completed the full cell-based IC design flow from logic design and verification, synthesis, Design For Testability, Automatic Place and Route, post-layout simulation, and transistor-level simulation 
+        \item Using TSMC 90nm technology, resulting in a peak throughput of 67.796~MOPS, consumes 48.2~mW @ 338.98~MHz.
+    \end{highlights}
+\end{onecolentry}
+\vspace{0.10 cm}
+
+\begin{onecolentry}
+\textbf{Two-Dimensional Convolution Accelerator of High-Precision Quantization (Conference Paper)}
+
+    \begin{highlights}
+        \item Y. -T. Chao, J. -Y. Gao, \textbf{C. Lawansuk} and Y. -C. Fan, "Two-Dimensional Convolution Accelerator
+        of High-Precision Quantization," 
+        \textit{2024 IEEE International Conference on Consumer Electronics (ICCE)}, Las Vegas, NV, USA, 2024, pp. 1-2, doi: \hrefWithoutArrow{\doilink}{10.1109/ICCE59016.2024.10444315}.
+        \item Developed a high-precision quantized 2D convolution accelerator leveraging the Winograd algorithm, achieving <0.2\% quantization error.
     \end{highlights}
 \end{onecolentry}
 
 
+%%%%%%%% EDUCATION SECTION
+\section{Education}
+\begin{twocolentry}{
+        Sept 2023 – Aug 2025
+    }
+    \textbf{National Taipei University of Technology (國立臺北科技大學)}
+    \newline
+    MSc in Electrical Engineering (GPA: 4.00/4.00)
+\end{twocolentry}
 
+\begin{onecolentry}
+    \begin{highlights}
+        \item \textbf{Laboratory:} Integrated System Laboratory (ISLAB) @ NTUT
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.10 cm}
+
+\begin{twocolentry}{
+    Aug 2017 – Jul 2021
+}
+\textbf{King Mongkut's Institute of Technology Ladkrabang (KMITL)}
+\newline
+BE in Computer Engineering (GPA: 3.29/4.00)
+\end{twocolentry}
+
+%%%%%%%% AWARDS SECTION
+\section{Awards}
+\begin{twocolentry}{
+    May 2025
+}
+\textbf{First-Ranked Graduating Student} (National Taipei University of Technology)
+\end{twocolentry}
+\begin{twocolentry}{
+    Jul 2021
+}
+\textbf{Second Class Honour} (KMITL)
+\end{twocolentry}
+
+
+
+
+%%%%%%%% EXPERIENCE SECTION
 
 \section{Experience}
 
-
-
-
 \begin{twocolentry}{
-        June 2005 – Aug 2007
-    }
-    \textbf{Software Engineer}, Apple -- Cupertino, CA\end{twocolentry}
+    Aug 2024 - May 2025
+}
+\textbf{Firmware Engineer Intern}, LinkCom Manufacturing Co., Ltd. -- New Taipei, Taiwan
+\end{twocolentry}
 
-\vspace{0.10 cm}
 \begin{onecolentry}
-    \begin{highlights}
-        \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-        \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-        \item Redesigned chat file format and implemented backward compatibility for search
-    \end{highlights}
+\begin{highlights}
+    \item Worked on a high-power-density DC-DC Converter including hardware design (Planar Transformer, LLC topology) and embedded software optimisation. Performance reaches more than 1 kW on the credit card size module.
+    \item Initiate the project for the transformer test platform (Firmware, and Hardware)
+    \item Investigate and design closed loop control system for power module and identify impact parameters
+
+\end{highlights}
 \end{onecolentry}
 
-
-\vspace{0.2 cm}
+\vspace{0.10 cm}
 
 \begin{twocolentry}{
-        June 2003 – Aug 2003
+        Oct 2021 - Sept 2023
     }
-    \textbf{Software Engineer Intern}, Microsoft -- Redmond, WA\end{twocolentry}
-
-\vspace{0.10 cm}
+    \textbf{Embedded System Engineer}, MuvMi Co., Ltd. -- Bangkok, Thailand\end{twocolentry}
 \begin{onecolentry}
     \begin{highlights}
-        \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-        \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-        \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-        \item Created a test case generation tool that creates random XML docs from XML Schema
-        \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+        \item Develop IoT Fleet, Data Analysis and Visualisation Platform on AWS for EV Charging System, identified and mitigated up to 12\% of energy loss
+        \item Develop a Vehicle Control Unit Firmware (RTOS on arm Cortex M4 processor) and infotainment system (Buildroot on arm Cortex A7 processor) for Electric Minibus and Electric Tuk-Tuk for the fleet of 1000 vehicles
+    
     \end{highlights}
 \end{onecolentry}
 
 
 
-
-\section{Publications}
-
-
-
-
-\begin{samepage}
-    \begin{twocolentry}{
-            Jan 2004
-        }
-        \textbf{3D Finite Element Analysis of No-Insulation Coils}
-    \end{twocolentry}
-
-    \vspace{0.10 cm}
-
-    \begin{onecolentry}
-        \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-
-        \vspace{0.10 cm}
-
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-    \end{onecolentry}
-\end{samepage}
-
-
-
-\section{Projects}
-
-
-
-
-\begin{twocolentry}{
-        \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
-    }
-    \textbf{Multi-User Drawing Tool}\end{twocolentry}
-
-\vspace{0.10 cm}
-\begin{onecolentry}
-    \begin{highlights}
-        \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-        \item Tools Used: C++, MFC
-    \end{highlights}
-\end{onecolentry}
-
-
-\vspace{0.2 cm}
-
-\begin{twocolentry}{
-        \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
-    }
-    \textbf{Synchronized Desktop Calendar}\end{twocolentry}
-
-\vspace{0.10 cm}
-\begin{onecolentry}
-    \begin{highlights}
-        \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-        \item Tools Used: C\#, .NET, SQL, XML
-    \end{highlights}
-\end{onecolentry}
-
-
-\vspace{0.2 cm}
-
-\begin{twocolentry}{
-        2002
-    }
-    \textbf{Custom Operating System}\end{twocolentry}
-
-\vspace{0.10 cm}
-\begin{onecolentry}
-    \begin{highlights}
-        \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-        \item Tools Used: C
-    \end{highlights}
-\end{onecolentry}
-
-
-
-
-\section{Technologies}
-
-
-
-
-\begin{onecolentry}
-    \textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
-\end{onecolentry}
-
-\vspace{0.2 cm}
-
-\begin{onecolentry}
-    \textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
-\end{onecolentry}
 
 
 
