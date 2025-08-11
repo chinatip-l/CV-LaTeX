@@ -189,123 +189,133 @@
 
 \begin{document}
 \newcommand{\AND}{\unskip
-    \cleaders\copy\ANDbox\hskip\wd\ANDbox
-    \ignorespaces
+	\cleaders\copy\ANDbox\hskip\wd\ANDbox
+	\ignorespaces
 }
 \newsavebox\ANDbox
 \sbox\ANDbox{$|$}
 %%%%%%%%%% HEAD SECTION
 \begin{header}
-    \fontsize{22 pt}{0 pt}\selectfont{\enname （\zhname）}
+	\fontsize{22 pt}{0 pt}\selectfont{\enname （\zhname）}
 
-    \vspace{5 pt}
+	\vspace{5 pt}
 
-    \normalsize
-    \mbox{Taipei, Taiwan}%
-    \kern 5.0 pt%
-    \AND%
-    \kern 5.0 pt%
-    \mbox{Email: \hrefWithoutArrow{mailto:\email}{\email}}%
-    \kern 5.0 pt%
-    \AND%
-    \kern 5.0 pt%
-    \mbox{Mobile: \hrefWithoutArrow{tel:\telnum}{\telnum}}%
-    \kern 5.0 pt%
-    \AND%
-    \kern 5.0 pt%
-    \mbox{Linkedin: \hrefWithoutArrow{\linkedin}{\enname}}%
-    \kern 5.0 pt%
-    \AND%
-    \kern 5.0 pt%
-    \mbox{Github: \hrefWithoutArrow{\git}{github.com/\gitname}}%
+	\normalsize
+	\mbox{Taipei, Taiwan}%
+	\kern 5.0 pt%
+	\AND%
+	\kern 5.0 pt%
+	\mbox{Email: \hrefWithoutArrow{mailto:\email}{\email}}%
+	\kern 5.0 pt%
+	\AND%
+	\kern 5.0 pt%
+	\mbox{Mobile: \hrefWithoutArrow{tel:\telnum}{\telnum}}%
+	\kern 5.0 pt%
+	\AND%
+	\kern 5.0 pt%
+	\mbox{Linkedin: \hrefWithoutArrow{\linkedin}{\enname}}%
+	\kern 5.0 pt%
+	\AND%
+	\kern 5.0 pt%
+	\mbox{Github: \hrefWithoutArrow{\git}{github.com/\gitname}}%
 \end{header}
 
 % \vspace{5 pt - 0.3 cm}
 
 
 
-\section{}
+\section{Professional Summary}
 \begin{onecolentry}
-    Text for self introduction
+	Driven by a passion for building robust systems from low level,
+	I began my career as an Embedded System Engineer, where I 
+	developed firmware and infotainment systems for a fleet of 
+	over 1000 electric vehicles. To expand my knowledge from the 
+	system level to the chip level, I pursued a Master's degree 
+	in Electrical Engineering, focusing on digital IC design. 
+	This advanced study allowed me to dive deep into hardware design and 
+	optimisation, culminating in a thesis where I designed and 
+	implemented a CORDIC hardware accelerator with a custom caching system.
+
+
 \end{onecolentry}
 
 %%%%%%%% EXPERTISES SECTION
 \section{Expertises}
 \begin{onecolentry}
-    \textbf{Programming:} Verilog, SystemVerilog, C, C++, Python, Assembly, Shell Script, TCL, Tensorflow
-    \par
-    \textbf{IC Design Software:} Synopsys VCS, Synopsys Design Compiler (Design Vision), Synopsys TetraMAX, Cadence NC-Verilog, Cadence Innovus, Siemens Calibre
-    \par
-    \textbf{Skills:} Cell-Based Digital IC Design Flow, Image Processing, Computer Architecture, Operating System, Embedded System Design, Firmware, RTOS, Circuit Design
-    \par
-    \textbf{Coursework:} Computer-Aided VLSI System Design, Mixed-Signal IC Design, Computer Vision, Computer Architecture, Computer Organisation, Operating System
+	\textbf{Programming:} Verilog, SystemVerilog, C, C++, Python, Assembly, Shell Script, TCL, Tensorflow
+	\par
+	\textbf{IC Design Software:} Synopsys VCS, Synopsys Design Compiler (Design Vision), Synopsys TetraMAX, Cadence NC-Verilog, Cadence Innovus, Siemens Calibre
+	\par
+	\textbf{Skills:} Cell-Based Digital IC Design Flow, Image Processing, Computer Architecture, Operating System, Embedded System Design, Firmware, RTOS, Circuit Design
+	\par
+	\textbf{Coursework:} Computer-Aided VLSI System Design, Mixed-Signal IC Design, Computer Vision, Computer Architecture, Computer Organisation, Operating System
 \end{onecolentry}
 
 %%%%%%%% THESIS/RESEARCH SECTION
 \section{Research and Publication}
 
 \begin{onecolentry}
-    \textbf{CORDIC hardware Improvement using Content Addressable Memory Cache (Thesis)}
-    \begin{highlights}
-        \item Investigated and designed an algorithm to cache partially calculated data and reuse it in the CORDIC architecture for sine and cosine calculation.
-        \item Designed and implemented the processing core to suit the caching algorithm
-        \item Designed and implemented a custom TCAM to use with the proposed cache unit and a complete cache subsystem from scratch, including multiple cache blocks, a PLRUm replacement policy, and a controller
-        \item Designed and implemented a pipeline and synchronisation mechanism using a handshaking protocol
-        \item Completed the full cell-based IC design flow from logic design and verification, synthesis, Design For Testability, Automatic Place and Route, post-layout simulation, and transistor-level simulation 
-        \item Using TSMC 90nm technology, resulting in a peak throughput of 67.796~MOPS, consumes 48.2~mW @ 338.98~MHz.
-    \end{highlights}
+	\textbf{CORDIC hardware Improvement using Content Addressable Memory Cache (Thesis)}
+	\begin{highlights}
+		\item Investigated and designed an algorithm to cache partially calculated data and reuse it in the CORDIC architecture for sine and cosine calculation.
+		\item Designed and implemented the processing core to suit the caching algorithm
+		\item Designed and implemented a custom TCAM to use with the proposed cache unit and a complete cache subsystem from scratch, including multiple cache blocks, a PLRUm replacement policy, and a controller
+		\item Designed and implemented a pipeline and synchronisation mechanism using a handshaking protocol
+		\item Completed the full cell-based IC design flow from logic design and verification, synthesis, Design For Testability, Automatic Place and Route, post-layout simulation, and transistor-level simulation
+		\item Using TSMC 90nm technology, resulting in a peak throughput of 67.796~MOPS, consumes 48.2~mW @ 338.98~MHz.
+	\end{highlights}
 \end{onecolentry}
 \vspace{0.10 cm}
 
 \begin{onecolentry}
-\textbf{Two-Dimensional Convolution Accelerator of High-Precision Quantization (Conference Paper)}
+	\textbf{Two-Dimensional Convolution Accelerator of High-Precision Quantization (Conference Paper)}
 
-    \begin{highlights}
-        \item Y. -T. Chao, J. -Y. Gao, \textbf{C. Lawansuk} and Y. -C. Fan, "Two-Dimensional Convolution Accelerator
-        of High-Precision Quantization," 
-        \textit{2024 IEEE International Conference on Consumer Electronics (ICCE)}, Las Vegas, NV, USA, 2024, pp. 1-2, doi: \hrefWithoutArrow{\doilink}{10.1109/ICCE59016.2024.10444315}.
-        \item Developed a high-precision quantized 2D convolution accelerator leveraging the Winograd algorithm, achieving <0.2\% quantization error.
-    \end{highlights}
+	\begin{highlights}
+		\item Y. -T. Chao, J. -Y. Gao, \textbf{C. Lawansuk} and Y. -C. Fan, "Two-Dimensional Convolution Accelerator
+		of High-Precision Quantization,"
+		\textit{2024 IEEE International Conference on Consumer Electronics (ICCE)}, Las Vegas, NV, USA, 2024, pp. 1-2, doi: \hrefWithoutArrow{\doilink}{10.1109/ICCE59016.2024.10444315}.
+		\item Developed a high-precision quantized 2D convolution accelerator leveraging the Winograd algorithm, achieving <0.2\% quantization error.
+	\end{highlights}
 \end{onecolentry}
 
 
 %%%%%%%% EDUCATION SECTION
 \section{Education}
 \begin{twocolentry}{
-        Sept 2023 – Aug 2025
-    }
-    \textbf{National Taipei University of Technology (國立臺北科技大學)}
-    \newline
-    MSc in Electrical Engineering (GPA: 4.00/4.00)
+		Sept 2023 – Aug 2025
+	}
+	\textbf{National Taipei University of Technology (國立臺北科技大學)}
+	\newline
+	MSc in Electrical Engineering (GPA: 4.00/4.00)
 \end{twocolentry}
 
 \begin{onecolentry}
-    \begin{highlights}
-        \item \textbf{Laboratory:} Integrated System Laboratory (ISLAB) @ NTUT
-    \end{highlights}
+	\begin{highlights}
+		\item \textbf{Laboratory:} Integrated System Laboratory (ISLAB) @ NTUT
+	\end{highlights}
 \end{onecolentry}
 
 \vspace{0.10 cm}
 
 \begin{twocolentry}{
-    Aug 2017 – Jul 2021
-}
-\textbf{King Mongkut's Institute of Technology Ladkrabang (KMITL)}
-\newline
-BE in Computer Engineering (GPA: 3.29/4.00)
+		Aug 2017 – Jul 2021
+	}
+	\textbf{King Mongkut's Institute of Technology Ladkrabang (KMITL)}
+	\newline
+	BE in Computer Engineering (GPA: 3.29/4.00)
 \end{twocolentry}
 
 %%%%%%%% AWARDS SECTION
 \section{Awards}
 \begin{twocolentry}{
-    May 2025
-}
-\textbf{First-Ranked Graduating Student} (National Taipei University of Technology)
+		May 2025
+	}
+	\textbf{First-Ranked Graduating Student} (National Taipei University of Technology)
 \end{twocolentry}
 \begin{twocolentry}{
-    Jul 2021
-}
-\textbf{Second Class Honour} (KMITL)
+		Jul 2021
+	}
+	\textbf{Second Class Honour} (KMITL)
 \end{twocolentry}
 
 
@@ -316,32 +326,32 @@ BE in Computer Engineering (GPA: 3.29/4.00)
 \section{Experience}
 
 \begin{twocolentry}{
-    Aug 2024 - May 2025
-}
-\textbf{Firmware Engineer Intern}, LinkCom Manufacturing Co., Ltd. -- New Taipei, Taiwan
+		Aug 2024 - May 2025
+	}
+	\textbf{Firmware Engineer Intern}, LinkCom Manufacturing Co., Ltd. -- New Taipei, Taiwan
 \end{twocolentry}
 
 \begin{onecolentry}
-\begin{highlights}
-    \item Worked on a high-power-density DC-DC Converter including hardware design (Planar Transformer, LLC topology) and embedded software optimisation. Performance reaches more than 1 kW on the credit card size module.
-    \item Initiate the project for the transformer test platform (Firmware, and Hardware)
-    \item Investigate and design closed loop control system for power module and identify impact parameters
+	\begin{highlights}
+		\item Worked on a high-power-density DC-DC Converter including hardware design (Planar Transformer, LLC topology) and embedded software optimisation. Performance reaches more than 1 kW on the credit card size module.
+		\item Initiate the project for the transformer test platform (Firmware, and Hardware)
+		\item Investigate and design closed loop control system for power module and identify impact parameters
 
-\end{highlights}
+	\end{highlights}
 \end{onecolentry}
 
 \vspace{0.10 cm}
 
 \begin{twocolentry}{
-        Oct 2021 - Sept 2023
-    }
-    \textbf{Embedded System Engineer}, MuvMi Co., Ltd. -- Bangkok, Thailand\end{twocolentry}
+		Oct 2021 - Sept 2023
+	}
+	\textbf{Embedded System Engineer}, MuvMi Co., Ltd. -- Bangkok, Thailand\end{twocolentry}
 \begin{onecolentry}
-    \begin{highlights}
-        \item Develop IoT Fleet, Data Analysis and Visualisation Platform on AWS for EV Charging System, identified and mitigated up to 12\% of energy loss
-        \item Develop a Vehicle Control Unit Firmware (RTOS on arm Cortex M4 processor) and infotainment system (Buildroot on arm Cortex A7 processor) for Electric Minibus and Electric Tuk-Tuk for the fleet of 1000 vehicles
-    
-    \end{highlights}
+	\begin{highlights}
+		\item Develop IoT Fleet, Data Analysis and Visualisation Platform on AWS for EV Charging System, identified and mitigated up to 12\% of energy loss
+		\item Develop a Vehicle Control Unit Firmware (RTOS on arm Cortex M4 processor) and infotainment system (Buildroot on arm Cortex A7 processor) for Electric Minibus and Electric Tuk-Tuk for the fleet of 1000 vehicles
+
+	\end{highlights}
 \end{onecolentry}
 
 
